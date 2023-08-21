@@ -4,9 +4,35 @@
 
 <head>
 	<link rel="stylesheet" href="styles.css">
+	<title>Signup Form Car</title>
 </head>
 
 <body>
+	<h1>Signup Form Car</h1>
+	<form action="post">
+		<label for="name"></label>
+		<input type="text" id="name" placeholder="Name" required><br>
+		<label for="email"></label>
+		<input type="email" id="email" placeholder="Email" required><br>
+		<input type="radio" name="gender" id="gender_m" required>
+		<label for="gender_m">Male</label><br>
+		<input type="radio" name="gender" id="gender_f" required>
+		<label for="gender_f">Female</label><br>
+		<input type="select" id="cars" required placeholder="--Please choose an option--">
+		<label for="cars"></label><br>
+		<input type="number" required id="age" placeholder="Age">
+		<label for="age"></label><br>
+		<input type="date" required id="dob">
+		<label for="age"></label><br>
+		<input type="tel" id="tel" placeholder="xxx-xxx-xxxx">
+		<label for="tel"></label><br>
+		<input type="password" required id="password" placeholder="Password">
+		<label for="password"></label><br>
+		<input type="checkbox" required id="tos">
+		<label for="tos"></label><br>
+		<input type="submit" id="submit">
+		<label for="submit"></label>
+	</form>
 	<!-- the entire body must be written by student -->
     <script type="text/javascript" src="./script.js">
 </script>
